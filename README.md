@@ -29,8 +29,6 @@ We have defined three main data structures to store projectile motion parameters
 
 ### ProjectileParams:
 
-    c
-
 typedef struct {
     double initial_velocity;
     double launch_angle;
@@ -40,8 +38,6 @@ typedef struct {
     launch_angle: The angle at which the projectile is launched.
 
 ### ProjectileResults:
-
-c
 
 typedef struct {
     double max_height;
@@ -54,8 +50,6 @@ typedef struct {
     range: The horizontal distance traveled by the projectile.
 
 ### SimulationData:
-
-c
 
     typedef struct {
         ProjectileParams params;
